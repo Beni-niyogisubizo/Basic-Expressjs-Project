@@ -1,5 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RyReYwyJ)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=24208118)
+
+[![Review Assignment Due Date]
 # Lab: Building a Vanilla Node.js Backend
 
 Welcome to your first backend development activity. In this lab, you will build a functional web server from scratch using Node.js—without external frameworks like Express.
@@ -64,7 +64,7 @@ server.listen(3000, () => {
 });
 ```
 
-#### Teaching Notes
+#### Teaching Notes ###
 - `http.createServer()` creates a server.
 - `req` contains information about the client request.
 - `res` is used to send a response back to the client.
@@ -225,7 +225,7 @@ Test in browser:
 - `/about` → `This is the about page.`
 - `/data` → JSON response
 
----
+
 
 ## Optional Challenge
 Add a `/greet?name=YourName` route.
@@ -244,3 +244,4 @@ Students now:
 - Understand status codes.
 - Understand basic backend folder organization.
 - Are ready to move to Express.js.
+
